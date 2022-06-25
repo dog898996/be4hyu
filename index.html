@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>간당간당하다</title>
     <style>
-        body{
-            background-color: rgb(187, 209, 228);    
+        body {
+            background-color: rgb(187, 209, 228);
         }
-        .maintext{
+
+        .maintext {
             background-image: url("./background.JPG");
             background-clip: padding-box;
             background-position: -50%;
@@ -17,39 +19,55 @@
             filter: blur(1px);
             margin-bottom: 50px;
         }
+
         .des {
             margin-bottom: 30px;
             font-size: 40px;
             font-weight: bolder;
             text-align: center;
         }
-        .video1{
+
+        .video1 {
             position: absolute;
-            left: 29%;
+            left: 20%;
             border: 10px gray solid;
             border-radius: 5%;
         }
-        .each{
-            width: 50%;
+
+        .each {
+            width: 65vw;
             margin: 0 auto;
             border: 8px rgb(196, 6, 6) solid;
-            height: 60vh;
+            height: 85vh;
             background-color: rgb(137, 169, 171);
+            margin-bottom: 50px;
         }
+
+        .d-flex {}
     </style>
 </head>
+
 <body>
-    <div class = "maintext" style="text-align: center; border: 5px rgb(103, 4, 4) dashed; font-weight: bolder; font-size: 50px;">제5인격 리플레이</div>
+    <div class="maintext"
+        style="text-align: center; border: 5px rgb(103, 4, 4) dashed; font-weight: bolder; font-size: 50px;">제5인격 리플레이
+    </div>
     <div class="d-flex">
+        <div class="each">
+            <div class="des">1-1: 리퍼1</div>
+            <iframe id='ivplayer' src="https://www.youtube.com/embed/40xbwd2jUss" width="900vw" height="500vh"
+                class="video1"></iframe>
+            </iframe>
+        </div>
+    </div>
     <div class="each">
-    <div class="des">1-1: 리퍼1</div>
-    <iframe  
-    id='ivplayer'  
-    src="https://www.youtube.com/embed/40xbwd2jUss"
-    width="40%"
-    height="45%"
-    class="video1"
-    ></iframe></div>
-</div>
+        <div class="des">1-2: 리퍼2</div>
+        <iframe id='ivplayer' src="https://www.youtube.com/embed/R2c00b03RdY" width="900vw" height="500vh"
+            class="video1">
+        </iframe>
+    </div>
+
+
+    </div>
 </body>
+
 </html>
